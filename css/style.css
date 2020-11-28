@@ -206,3 +206,128 @@ ul.lists-jlswe li {
 ul.lists-jlswe li i {
     color: #ffe5e5;
 }
+
+/* Footer */
+
+.jls-footer-grids {
+    background: #352e29;
+}
+
+.jl-footer h3,
+.jl-footer h2 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.jl-footer.one p {
+    color: #a29595;
+    font-size: 17px;
+}
+
+/* social icons */
+
+.jl-footer.two ul li i {
+    font-size: 13px;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    background: #6E65F1;
+    padding: 9px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.jl-footer.two ul li a {
+    color: #a29595;
+    font-size: 14px;
+}
+
+.jl-footer.two ul li i.fa-facebook-f {
+    background: #5d82d2;
+}
+
+.jl-footer.two ul li i.fa-twitter {
+    background: #3bbef5;
+}
+
+.jl-footer.two ul li i.fa-google-plus-g {
+    background: #ea5d4b;
+}
+
+.jl-footer.two ul li i.fa-dribbble {
+    background: #f7659b;
+}
+
+.jl-footer.two ul li:nth-child(1) a:hover {
+    color: #5D82D2;
+}
+
+.jl-footer.two ul li:nth-child(2) a:hover {
+    color: #3bbef5;
+}
+
+.jl-footer.two ul li:nth-child(3) a:hover {
+    color: #ea5d4b;
+}
+
+.jl-footer.two ul li:nth-child(4) a:hover {
+    color: #f7659b;
+}
+
+/* //social icons */
+
+/* footer nav */
+
+.nav-j-l ul li a {
+    color: #a29595;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.jl-footer.three ul li i {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.jl-footer.three ul li p,
+.jl-footer.three ul li a {
+    color: #a29595;
+    font-size: 17px;
+    letter-spacing: 1px;
+    float: left;
+    margin-left: 20px;
+}
+
+.jl-footer.three ul li span {
+    display: block;
+}
+
+/* //footer nav */
+
+/* copyright */
+
+.copy-right-grids {
+    background: #211c18;
+}
+
+p.footer-gd.text-center a {
+    color: #e60101;
+}
+
+p.footer-gd.text-center a:hover {
+    color: yellow;
+}
+
+.copy-right ul li a:hover,
+.jl-footer.three ul li a:hover,
+.nav-j-l ul li a:hover {
+    color: #fff;
+}
