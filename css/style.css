@@ -331,3 +331,9 @@ p.footer-gd.text-center a:hover {
 .nav-j-l ul li a:hover {
     color: #fff;
 }
+
+.caption-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
