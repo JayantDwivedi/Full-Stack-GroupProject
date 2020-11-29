@@ -1,0 +1,342 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Bellefair', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Timmana', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bellefair', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+/* Header  */
+.header {
+    position: relative;
+}
+
+/* navigation */
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0 30px;
+    background: url(../images/header.png) no-repeat center !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 19px;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #e60101;
+    opacity: .7;
+}
+
+a.navbar-brand {
+    font-family: 'Arizonia', cursive;
+    font-size: 46px !important;
+    padding: 0 50px 12px;
+    color: #e60101 !important;
+}
+
+a.navbar-brand span {
+    font-family: 'Fresca', sans-serif;
+    display: block;
+    letter-spacing: 9px;
+    text-align: right;
+    font-size: 15px;
+    margin-top: -12px;
+}
+
+.nav-link {
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 19px;
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: red;
+    opacity: .7;
+}
+
+
+h5.tittle-j {
+    font-family: 'Arizonia', cursive;
+    font-size: 70px;
+}
+
+h3.subheading-wthree {
+    color: #e60101;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.about-jls-right ul li {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #777;
+}
+
+.about-jls-right ul li i {
+    color: #000;
+}
+
+.about-bottom {
+    background: url("../images/bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.about-bottom h4 {
+    font-size: 52px;
+    max-width: 600px;
+}
+
+.about-bottom p {
+    font-family: 'Arizonia', cursive;
+    font-size: 36px;
+    position: relative;
+}
+
+/* Banner 2  */
+.banner-2 {
+    background: url(../images/banner2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 400px;
+}
+
+/* // Banner 2  */
+
+/* Breadcrumb  */
+/* wo home wala section hai ye jo banner ke neeche hai  */
+.breadcrumb {
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.08);
+    margin: 0;
+    background-color: #fbf7f7;
+    padding: 14px 30px;
+}
+
+li.breadcrumb-item a {
+    color: #e60101;
+}
+
+ol.breadcrumb li {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* // breadcrumb  */
+
+/* Some numerical stats  */
+.about-bottom-jl p {
+    margin-bottom: 0;
+}
+
+.about-bottom-jl ul li {
+    display: inline-block;
+    width: 32%;
+    text-align: right;
+}
+
+.about-bottom-jl ul li h5 {
+    font-size: 40px;
+    color: #e60101;
+}
+
+/* // numerical stats  */
+
+/* Team Cards  */
+
+.card {
+    display: inline-block;
+    justify-content: evenly;
+    margin-left: 15rem;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.8s;
+}
+
+.card:hover {
+    display: inline-block;
+    margin-left: 15rem;
+    box-shadow: 15px 15px 15px grey;
+}
+
+.card:active {
+    display: inline-block;
+    margin-left: 15rem;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.2s;
+}
+
+.own-services>h4 {
+    font-size: 50px;
+}
+
+.own-services {
+    margin: 50px auto 50px auto;
+}
+
+
+/* //team */
+
+
+
+/* Footer */
+
+.jls-footer-grids {
+    background: #352e29;
+}
+
+.jl-footer h3,
+.jl-footer h2 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.jl-footer.one p {
+    color: #a29595;
+    font-size: 17px;
+}
+
+/* social icons */
+
+.jl-footer.two ul li i {
+    font-size: 13px;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    background: #6E65F1;
+    padding: 9px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.jl-footer.two ul li a {
+    color: #a29595;
+    font-size: 14px;
+}
+
+.jl-footer.two ul li i.fa-facebook-f {
+    background: #5d82d2;
+}
+
+.jl-footer.two ul li i.fa-twitter {
+    background: #3bbef5;
+}
+
+.jl-footer.two ul li i.fa-google-plus-g {
+    background: #ea5d4b;
+}
+
+.jl-footer.two ul li i.fa-dribbble {
+    background: #f7659b;
+}
+
+.jl-footer.two ul li:nth-child(1) a:hover {
+    color: #5D82D2;
+}
+
+.jl-footer.two ul li:nth-child(2) a:hover {
+    color: #3bbef5;
+}
+
+.jl-footer.two ul li:nth-child(3) a:hover {
+    color: #ea5d4b;
+}
+
+.jl-footer.two ul li:nth-child(4) a:hover {
+    color: #f7659b;
+}
+
+/* //social icons */
+
+/* footer nav */
+
+.nav-j-l ul li a {
+    color: #a29595;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.jl-footer.three ul li i {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.jl-footer.three ul li p,
+.jl-footer.three ul li a {
+    color: #a29595;
+    font-size: 17px;
+    letter-spacing: 1px;
+    float: left;
+    margin-left: 20px;
+}
+
+.jl-footer.three ul li span {
+    display: block;
+}
+
+/* //footer nav */
+
+/* copyright */
+
+.copy-right-grids {
+    background: #211c18;
+}
+
+p.footer-gd.text-center a {
+    color: #e60101;
+}
+
+p.footer-gd.text-center a:hover {
+    color: yellow;
+}
+
+.copy-right ul li a:hover,
+.jl-footer.three ul li a:hover,
+.nav-j-l ul li a:hover {
+    color: #fff;
+}
