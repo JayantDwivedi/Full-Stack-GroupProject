@@ -197,7 +197,7 @@ ol.breadcrumb li {
 .card:hover {
     display: inline-block;
     margin-left: 15rem;
-    box-shadow: 15px 15px 15px grey;
+    box-shadow: 15px 15px 15px rgb(236, 85, 85);
 }
 
 .card:active {
