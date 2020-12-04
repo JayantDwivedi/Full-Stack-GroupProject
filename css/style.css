@@ -107,6 +107,19 @@ h3.subheading-wthree {
     letter-spacing: 3px;
 }
 
+.carousel-inner{
+    height: 92vh;
+}
+
+.carousel-caption{
+    height: 40vh;
+}
+
+.image1{
+    height: 70vh;
+    width: 100%;
+}
+
 .about-jls-right ul li {
     font-size: 15px;
     letter-spacing: 1px;
@@ -336,4 +349,5 @@ p.footer-gd.text-center a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: red;
 }
