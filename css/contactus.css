@@ -1,0 +1,63 @@
+/*-- contact --*/
+
+
+.contact-us1-bottom input[type="text"],
+.contact-us1-bottom input[type="email"],
+.contact-us1-bottom textarea {
+    outline: none;
+    padding: 11px 10px;
+    background: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.contact-us1-bottom textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+.contact-us1-bottom input[type="submit"] {
+    background: #e60101;
+    color: #fff;
+    outline: none;
+    padding: 11px 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: none;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.contact-us1-bottom input[type="submit"]:hover {
+    background: #000;
+    letter-spacing: 4px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.home-radio-clock ul li,
+.home-radio-clock-right ul li {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.home-radio-clock ul li i {
+    font-size: 20px;
+    color: #e60101;
+}
+
+.home-radio-clock-right ul li span {
+    display: block;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: 400px;
+}

@@ -1,0 +1,14 @@
+/* Menu Section  */
+.j_cuisine_names_left h3 {
+    font-size: 20px;
+    color: #212121;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+.j_cuisine_names_left h3 span {
+    font-size: 28px;
+    color: #e60101;
+}
+
+/*-- //menu-section --*/
